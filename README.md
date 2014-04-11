@@ -11,7 +11,7 @@ openshift-jrebel-cartridge
 
 If you want to use WildFly 8 it can be installed on OpenShift Online by substituting the following command for the rhc app create tomcat7 jbossews-2.0 in the below instructions.  This is because it is currently a downloadable cartridge:
 
-  rhc app create wildfly https://cartreflect-claytondev.rhcloud.com/reflect?github=openshift-cartridges/openshift-wildfly-cartridge
+	rhc app create wildfly https://cartreflect-claytondev.rhcloud.com/reflect?github=openshift-cartridges/openshift-wildfly-cartridge
   
 
 The cartridge and documentation can be found on github here: https://github.com/openshift-cartridges/openshift-wildfly-cartridge
