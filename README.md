@@ -43,3 +43,10 @@ If you are using IntelliJ, remember that this is a maven based project, so you w
 - 
     
 Please log any issues to the git repository issue tracker
+
+####Additional Resources  
+Here are a some resources to help you get going with JRebel Remoting in your favorite IDE: 
+http://zeroturnaround.com/software/jrebel/learn/remoting  
+http://zeroturnaround.com/software/jrebel/learn/remoting/eclipse/  
+http://zeroturnaround.com/software/jrebel/learn/intellij-idea-jrebel-tutorial-formerly-javarebel/ 
+
