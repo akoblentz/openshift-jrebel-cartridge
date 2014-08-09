@@ -21,16 +21,12 @@ The following examples will use the jbossews-2.0 (Tomcat 7) cartridge, but you c
 Create your application using the tomcat 7 (jbossews-2.0) cartridge
 
 	rhc app create tomcat7 jbossews-2.0
-	
-Then upload your jrebel.lic file to your OPENSHIFT_DATA_DIR
 
-	rhc scp tomcat7 upload jrebel.lic app-root/data
-    
 Then install this cartridge
 
-    rhc cartridge-add https://raw.github.com/developercorey/openshift-jrebel-cartridge/master/metadata/manifest.yml -a <appname>
+    rhc cartridge-add https://cartreflect-claytondev.rhcloud.com/reflect?github=openshift-cartridges/openshift-jrebel-cartridge -a <appname>
   
-Before  you can interact with your application using JRebel, you need to complete the following steps:  
+Before you can interact with your application using JRebel, you need to complete the following steps:  
 	
 - Now clone your application to your workstation (using either your IDE or git command line), then add the rebel.xml and rebel-remote.xml files and configure them to point to your application url (http://app-domain.rhcloud.com).  
 - You then need to do a "git add", "git commit", and "git push" to get these files onto your gear so that you can use JRebel.  This will also restart the application server and make sure that jrebel is now running.
