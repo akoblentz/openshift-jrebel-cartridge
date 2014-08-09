@@ -8,5 +8,3 @@ esac
 mkdir -p ${OPENSHIFT_JREBEL_DIR}/{log,jar}
 cp -r ${OPENSHIFT_JREBEL_DIR}versions/${version}/jrebel.jar ${OPENSHIFT_JREBEL_DIR}jar
 mkdir ${OPENSHIFT_HOMEDIR}.jrebel
-touch ${OPENSHIFT_DATA_DIR}jrebel.lic
-ln -s ${OPENSHIFT_DATA_DIR}jrebel.lic ${OPENSHIFT_HOMEDIR}.jrebel/jrebel.lic
