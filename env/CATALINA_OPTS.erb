@@ -1,1 +1,1 @@
-<%= ENV['CATALINA_OPTS'] %> -javaagent:<%= ENV['OPENSHIFT_JREBEL_DIR']%>jar/jrebel.jar -Drebel.log=true -Drebel.log.file=<%= ENV['OPENSHIFT_JREBEL_DIR']%>/log/jrebel.log -Duser.home=<%= ENV['OPENSHIFT_HOMEDIR']%> -Drebel.remoting_plugin=true
+<%= ENV['CATALINA_OPTS'] %> -agentpath:<%= ENV['OPENSHIFT_JREBEL_DIR']%>lib/libjrebel64.so -Drebel.log=true -Drebel.log.file=<%= ENV['OPENSHIFT_JREBEL_DIR']%>/log/jrebel.log -Duser.home=<%= ENV['OPENSHIFT_HOMEDIR']%> -Drebel.remoting_plugin=true

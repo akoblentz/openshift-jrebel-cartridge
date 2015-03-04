@@ -5,6 +5,7 @@ case "$1" in
     version="$2"
 esac
 
-mkdir -p ${OPENSHIFT_JREBEL_DIR}/{log,jar}
-cp -r ${OPENSHIFT_JREBEL_DIR}versions/${version}/jrebel.jar ${OPENSHIFT_JREBEL_DIR}jar
+mkdir -p ${OPENSHIFT_JREBEL_DIR}/{log,lib}
+cp -r ${OPENSHIFT_JREBEL_DIR}versions/${version}/libjrebel64.so
+${OPENSHIFT_JREBEL_DIR}lib
 mkdir ${OPENSHIFT_HOMEDIR}.jrebel
