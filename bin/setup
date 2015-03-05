@@ -6,6 +6,7 @@ case "$1" in
 esac
 
 mkdir -p ${OPENSHIFT_JREBEL_DIR}/{log,lib}
-cp -r ${OPENSHIFT_JREBEL_DIR}versions/${version}/libjrebel32.so ${OPENSHIFT_JREBEL_DIR}lib
+cp -r ${OPENSHIFT_JREBEL_DIR}versions/${version}/lib/libjrebel32.so ${OPENSHIFT_JREBEL_DIR}lib
+cp -r ${OPENSHIFT_JREBEL_DIR}versions/${version}/lib/jrebel.jar ${OPENSHIFT_JREBEL_DIR}lib
 mkdir -p ${OPENSHIFT_HOMEDIR}.jrebel
 mkdir -p ${OPENSHIFT_HOMEDIR}.jrebel/bootcache/
