@@ -3,10 +3,10 @@ Cartridge-Short-Name: JREBEL
 Display-Name: JRebel by ZeroTurnaround
 Description: Test Java apps as you code
 License: Commercial
-Version: '6.1.1'
+Version: '6.1.2'
 License-Url: http://zeroturnaround.com/software/jrebel/buy/
 Vendor: zeroturnaround
-Cartridge-Version: 0.1.1
+Cartridge-Version: 0.1.2
 Cartridge-Vendor: zeroturnaround
 Categories:
 - service
