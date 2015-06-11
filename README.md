@@ -24,7 +24,7 @@ Create your application using the tomcat 7 (jbossews-2.0) cartridge
 
 Then install this cartridge
 
-    rhc cartridge-add https://cartreflect-claytondev.rhcloud.com/reflect?github=openshift-cartridges/openshift-jrebel-cartridge -a <appname>
+    rhc cartridge-add https://cartreflect-claytondev.rhcloud.com/reflect?github=akoblentz/openshift-jrebel-cartridge -a <appname>
   
 Before you can interact with your application using JRebel, you need to complete the following steps:  
 	
