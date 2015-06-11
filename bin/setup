@@ -5,8 +5,7 @@ case "$1" in
     version="$2"
 esac
 
-mkdir -p ${OPENSHIFT_HOMEDIR}.java
-touch ${OPENSHIFT_HOMEDIR}.java/.userPrefs/
+mkdir -p ${OPENSHIFT_HOMEDIR}.java/.userPrefs/
 chmod -R 755 ${OPENSHIFT_HOMEDIR}.java
 mkdir -p ${OPENSHIFT_HOMEDIR}.jrebel
 mkdir -p ${OPENSHIFT_HOMEDIR}.jrebel/bootcache/
